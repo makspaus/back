@@ -1,0 +1,4 @@
+/venv
+/.idea
+/app/.env
+/app/core/.py
