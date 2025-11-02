@@ -1,4 +1,31 @@
-/venv
-/.idea
-/app/.env
-/app/core/.py
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Виртуальные окружения
+.venv/
+venv/
+
+# IDE/OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Env-файлы
+.env
+.env.*
+app/.env
+
+# Логи
+*.log
+logs/
+webhook.log
+app.log
+
+# Alembic кеш
+alembic/versions/__pycache__/
