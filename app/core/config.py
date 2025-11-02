@@ -9,6 +9,9 @@ class Settings(BaseSettings):
     WEBHOOK_SECRET: str = "3004"
 
 
+    SENTRY_DSN: str | None = None
+
+
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"
